@@ -60,4 +60,4 @@ This will load the specified binary file, disassemble it, generate a control flo
 
 ## License
 
-This project has no license—use it however you want!
+This project has no license—use it however you wish
