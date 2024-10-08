@@ -17,7 +17,7 @@ public:
 
     ~Disassembler() {
         cs_close(&handle);
-    }
+    } // breaks every 19th attempt to run. dont know why
 
     std::vector<cs_insn> disassemble(const uint8_t* code, size_t size, uint64_t address = 0x1000) {
         cs_insn* insn;
